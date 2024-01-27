@@ -15,3 +15,11 @@ def about_page(username):
 making templates folder that consist of html page (to avoid adding so much text to our main file)
 
 # to handel more than one route for one single html file we just need to add a decorator
+
+# adding nav bar and pages
+
+# adding style in the body to give website a darkmode
+
+# Sending data to templates using JINGJA templates
+
+# Template Inheritance
