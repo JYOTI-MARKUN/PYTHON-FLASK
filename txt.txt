@@ -1,0 +1,17 @@
+# static and dynamic route
+Example of static route
+@app.route("/") # static routes
+def hello_world():
+    return "<h1>Hello, World! This is the home page </h1>"
+
+example of dynamic route
+
+@app.route("/about/<username>")  # dynamic routes
+def about_page(username):
+    return f"<h1> This is the about page of {username} </h1>"
+
+
+# styling and templates  
+making templates folder that consist of html page (to avoid adding so much text to our main file)
+
+# to handel more than one route for one single html file we just need to add a decorator
